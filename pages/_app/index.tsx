@@ -42,6 +42,7 @@ class MyApp extends App {
                 <Head>
                     <title>Smart Resume | free resume builder</title>
                     <meta name="description" content="A modern real time design and 100% free resume builder."></meta>
+                    <meta name="google-site-verification" content="8fJzOyA_zZlDohZ-o5UdGWsVjdLyV4PtNOaOeCH2pto" />
                 </Head>
                 <Provider store={appStore}>
                     <PersistGate loading={<Component {...pageProps} />} persistor={this.persistor}>
